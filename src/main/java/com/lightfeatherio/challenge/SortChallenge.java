@@ -1,18 +1,15 @@
-import java.util.ArrayList;
-import java.util.List;
-
 public class SortChallenge implements SortInterface {
 
     private class MiniHash {
         // array of keys 
-        protected List<Integer>keys = null;
-        protected List<Integer>values = null;
+        protected ListInt keys = null;
+        protected ListInt values = null;
         // receives and list ordered ascending 
         MiniHash(int[] list) {
             // get the ascending list
             int[] ascList = simpleSort(list, true);            
-            keys = new ArrayList<Integer>();
-            values = new ArrayList<Integer>();
+            keys = new ListInt();
+            values = new ListInt();
             // initialize hash with 1st element
             int index = 0;
             keys.add(ascList[0]);
