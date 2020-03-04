@@ -44,11 +44,11 @@ public class SortChallenge implements SortInterface {
         protected int size() {
             return keys.size(); 
         }
-
+        // get the key
         protected int getKey(int index){
             return keys.get(index);
         }
-
+        // get the value
         protected int getValue(int index) {
             return values.get(index);
         }
@@ -90,14 +90,8 @@ public class SortChallenge implements SortInterface {
     public int numberOfUniqueValues(int[] list) {
         // get list of occurrences of elements in list
         MiniHash mh = new MiniHash(list);
-        int counter = 0;
-        for (int i = 0; i < mh.size(); i++) {
-            int times = mh.getValue(i);
-            if (times == 1) {
-                counter++;
-            }
-        }
-        return counter;
+        // size of hash gives number of unique elements
+        return mh.size();
     }
 
     public void printArray(int[] list) {
