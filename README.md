@@ -4,7 +4,7 @@ Java Challenge for Lightfeather
 # How to execute this
  Once you have cloned a copy of this project go to (cd to)
  
- .\lightfeatherio_challenge\src\main\java\com\lightfeatherio\challenge\
+ **.\lightfeatherio_challenge\src\main\java\com\lightfeatherio\challenge\**
 
 To compile do
 
