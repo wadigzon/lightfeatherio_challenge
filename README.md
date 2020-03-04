@@ -7,10 +7,10 @@ Java Challenge for Lightfeather
  .\lightfeatherio_challenge\src\main\java\com\lightfeatherio\challenge\
 
 To compile do
-\> javac ChallengeMain.java
+$ javac ChallengeMain.java
 
 To run the challenge do
-\> java ChallengeMain
+$ java ChallengeMain
 
 	Enter integers separated by a single space <Enter> when done:
 	24 12 8 12 19 24
