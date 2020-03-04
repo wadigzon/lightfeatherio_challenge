@@ -12,7 +12,7 @@ To compile do
 
 To run the challenge do
 
-$ java ChallengeMain
+**$ java ChallengeMain**
 
 	Enter integers separated by a single space <Enter> when done:
 	24 12 8 12 19 24
