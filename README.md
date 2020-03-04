@@ -10,14 +10,14 @@ To compile do
 To run the challenge do
 > java ChallengeMain
 
-Enter integers separated by a single space <Enter> when done:
-24 12 8 12 19 24
-The sorted array in ascending order is:
-[ 8 ,12 ,12 ,19 ,24 ,24 ]
-The frequency of array elements is as follows:
-8 appears 1 time
-12 appears 2 times
-19 appears 1 time
-24 appears 2 times
-The number of unique element(s) in the array is:
-4
+	Enter integers separated by a single space <Enter> when done:
+	24 12 8 12 19 24
+	The sorted array in ascending order is:
+	[ 8 ,12 ,12 ,19 ,24 ,24 ]
+	The frequency of array elements is as follows:
+	8 appears 1 time
+	12 appears 2 times
+	19 appears 1 time
+	24 appears 2 times
+	The number of unique element(s) in the array is:
+	4
