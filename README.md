@@ -2,11 +2,10 @@
 Java Challenge for Lightfeather
 
 # How to execute this
- Once you have cloned a copy of this project go to
+ Once you have cloned a copy of this project go to (cd to)
  .\lightfeatherio_challenge\src\main\java\com\lightfeatherio\challenge
 To compile do
 \> javac ChallengeMain.java
-
 To run the challenge do
 \> java ChallengeMain
 
