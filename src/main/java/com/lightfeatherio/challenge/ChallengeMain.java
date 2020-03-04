@@ -5,7 +5,7 @@ import java.util.List;
 
 public class ChallengeMain {
     public static void main(String[] argc) {
-        System.out.println("Enter integers separated by a single space <Enter> when done:");
+        System.out.println("Enter integers separated by space <Enter> when done:");
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         List<Integer> iList = new ArrayList<Integer>();
         int[] myIntArray = null;
@@ -14,7 +14,7 @@ public class ChallengeMain {
             String s;
             s = br.readLine();
             if (s.length() > 0) {
-                String[] tokens = s.trim().split(" ");
+                String[] tokens = s.trim().split("\\s+");
                 myIntArray = new int[tokens.length];
                 int i=0;
                 for(String t : tokens) {
@@ -28,7 +28,7 @@ public class ChallengeMain {
         }
 
         catch (Exception e) {
-            System.out.println("error entering data - plase enter integer numbers separated by one space only");
+            System.out.println("error entering data - plase enter integer numbers separated by space only");
             return;
         }
 
