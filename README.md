@@ -8,7 +8,7 @@ Java Challenge for Lightfeather
 
 To compile do
 
-$ javac ChallengeMain.java
+**$ javac ChallengeMain.java**
 
 To run the challenge do
 
