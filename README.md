@@ -5,10 +5,10 @@ Java Challenge for Lightfeather
  Once you have cloned a copy of this project go to
  .\lightfeatherio_challenge\src\main\java\com\lightfeatherio\challenge
 To compile do
-> javac ChallengeMain.java
+\> javac ChallengeMain.java
 
 To run the challenge do
-> java ChallengeMain
+\> java ChallengeMain
 
 	Enter integers separated by a single space <Enter> when done:
 	24 12 8 12 19 24
